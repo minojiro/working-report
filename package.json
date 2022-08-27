@@ -1,0 +1,23 @@
+{
+  "name": "git-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exec": "node -r esbuild-register ./src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "esbuild": "^0.15.5",
+    "esbuild-register": "^3.3.3"
+  },
+  "dependencies": {
+    "csv": "^6.2.0",
+    "dayjs": "^1.11.5",
+    "gitlog": "^4.0.4"
+  }
+}
